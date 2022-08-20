@@ -3,7 +3,7 @@
 }
 
 input {
-  font-size  : 1.2rem;
+  font-size  : 1rem;
   color      : var(--DarkBlue);
   font-weight: 600;
 }
@@ -33,14 +33,14 @@ input::placeholder {
 }
 
 .inputError {
-  border       : 1px solid var(--Red);
-  display      : block;
-  width        : 100%;
-  padding      : 1rem;
-  border-radius: .4rem;
-  transition   : .2s;
-
-  position: relative;
+  border             : 1px solid var(--Red);
+  display            : block;
+  width              : 100%;
+  padding            : 1rem;
+  border-radius      : .4rem;
+  background         : url("../../../assets/icon-error.svg") no-repeat right;
+  background-size    : 24px 24px;
+  background-position: 95% 1rem;
 }
 
 .inputError:focus,
@@ -49,6 +49,7 @@ input::placeholder {
   border-color: var(--Red);
   background  : var(--White);
   box-shadow  : 0 0 0 1px var(--Red);
+  transition  : .2s;
 }
 
 .inputError::placeholder {
@@ -56,7 +57,7 @@ input::placeholder {
 }
 
 .error {
-  font-size  : .875rem;
+  font-size  : .75rem;
   font-style : italic;
   font-weight: 500;
   text-align : right;
