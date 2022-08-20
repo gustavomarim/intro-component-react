@@ -35,30 +35,16 @@ function App() {
             label="First Name"
             type="text"
             name="firstName"
-            placeholder="First Name"
             {...firstName}
           />
-          <Input
-            label="Last Name"
-            type="text"
-            name="lastName"
-            placeholder="Last Name"
-            {...lastName}
-          />
+          <Input label="Last Name" type="text" name="lastName" {...lastName} />
 
-          <Input
-            label="Email Address"
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            {...email}
-          />
+          <Input label="Email Address" type="email" name="email" {...email} />
 
           <Input
             label="Password"
             type="password"
             name="password"
-            placeholder="Password"
             {...password}
           />
           <Button>CLAIM YOUR FREE TRIAL</Button>

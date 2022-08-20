@@ -21,8 +21,8 @@ const types = {
     regex:
       /^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%*()_+^&}{:;?.])(?:([0-9a-zA-Z])(?!\1)|[!@#$%;*(){}_+^&]){6,}$/,
     message:
-      "The password cannot have repeated characters and must have a special character.",
-    emptyMessage: "Password cannot be empty",
+      "The password must have: 8 characters, an uppercase letter, a lowercase letter and a special character.",
+    emptyMessage: "Looks like this is not an email",
   },
 };
 
