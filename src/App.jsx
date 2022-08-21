@@ -18,7 +18,7 @@ function App() {
       <section className="animeLeft">
         <h1 className="title">Learn to code by watching others</h1>
         <p className="paragraph">
-          See how experienced developers salve problemas in real-time.
+          See how experienced developers solve problems in real-time.
         </p>
         <p className="paragraph">
           Watching scripted tutorials is great, but understanding how developers
