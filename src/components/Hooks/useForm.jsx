@@ -15,14 +15,14 @@ const types = {
     regex:
       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
     message: "Looks like this is not an email",
-    emptyMessage: "Looks like this is not an email",
+    emptyMessage: "Email cannot be empty",
   },
   password: {
     regex:
       /^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%*()_+^&}{:;?.])(?:([0-9a-zA-Z])(?!\1)|[!@#$%;*(){}_+^&]){6,}$/,
     message:
       "The password must have: 8 characters, an uppercase letter, a lowercase letter and a special character.",
-    emptyMessage: "Looks like this is not an email",
+    emptyMessage: "Password cannot be empty",
   },
 };
 
