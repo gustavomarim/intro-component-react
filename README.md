@@ -30,10 +30,6 @@ Users should be able to:
 ### Screenshot
 
 ![intro-review](./src/assets/intro-review.gif)
-![intro-1440px](./src/assets/intro-apresentation-1440px.png)
-![intro-800px](./src/assets/intro-apresentation-800px.png)
-![intro-500px](./src/assets/intro-apresentation-500px.png)
-
 
 ### Links
 
@@ -59,7 +55,7 @@ In this project I was able to put into practice my learning in React, using conc
 
 ### Continued development
 
-Continuarei aperfeiçoando as técnicas de boas práticas de desenvolvimento de software, utilização de react na construção de aplicações e boas práticas de UI/UX.
+Continuing to improve the techniques of best practices in software development, use of reaction in building applications and good UI/UX practices.
 
 ### How to use the project
 
